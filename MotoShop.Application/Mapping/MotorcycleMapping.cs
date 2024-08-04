@@ -11,7 +11,7 @@ namespace MotoShop.Application.Mapping
                 this.CreateMap<Motorcycle, MotorcycleDto>()
                 .ReverseMap();
 
-                
+                //dsa
         }
     }
 }
