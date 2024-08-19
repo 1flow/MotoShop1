@@ -8,6 +8,7 @@ namespace MotoShop.Application.Mapping
     {
         public MotorcycleMapping()
         {
+            //
                 this.CreateMap<Motorcycle, MotorcycleDto>()
                 .ReverseMap();
 
