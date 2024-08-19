@@ -168,7 +168,7 @@ namespace MotoShop.Application.Services
 
                 };
             }
-
+            //userrole
             var userRole = await _userRoleRepository.GetAll()
                 .Where(x => x.RoleId == role.Id)
                 .FirstOrDefaultAsync(x => x.UserId == user.Id);
